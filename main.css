@@ -1,154 +1,135 @@
-/* resets margins and padding to zero by default */
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Element selector Changes the font of all h1 tags */
-
-h1 {
-  font: bold 20px Tahoma;
-}
-
-
-/* Changes the font of all h2 tags */
-
-h2 {
-  font: bold 14px Tahoma;
-}
-
-
 /* This insures that all browsers handle the website in the same way.  CSS Display */
-
-header,
-section,
-footer aside,
-nav,
-article,
-hgroup {
+header, section, footer, aside, nav, article, figure, figcaption {
   display: block;
 }
 
+/*This gives style to the body*/
 body {
-  text-align: center;
-  background-color: #e6e6e6
+  color: #666666;
+  background-color: #f9f8f6;
+  background-position: center;
+  /*add background picture here*/
+  font-family: georgia, times, serif;
+  line-height: 1.4em;
+  margin: 0px;
 }
 
-
-/* This will style the whole website CSS Dimension Width, CSS Margin */
-
-#wrapper {
-  border: 1px solid black;
-  width: 900px;
-  margin: 20px auto;
-  text-align: left;
+.wrapper{
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
 }
 
-
-/* This styles the header CSS Padding, CSS Boarder, CSS Gradient */
-
-#top_header {
-  background: linear-gradient(to right, black, rgb(88, 0, 0), orange, rgb(88, 0, 0), black);
-  border: 1px solid black;
-  padding: 25px;
-  text-align: center;
-  color: white;
+header{
+  height: 160px;
+  /*background-image: url ("images/header.jpg")*/
 }
 
-
-/* This styles the nav bar */
-
-#menu {
-  background-color: rgb(88, 0, 0);
-  color: white;
+h1{
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px
 }
 
-#menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+nav, footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
 }
 
-#menu li {
-  float: left;
+nav ul{
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
 }
 
-#menu li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 12px 18px;
+nav li{
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a{
+  color: #ffffff;
   text-decoration: none;
 }
 
-
-/* CSS Anchor Pseudo Class */
-
-li a:hover {
-  background-color: #111;
+nav li a:hover, nav li a.current{
+  color: #000000;
 }
 
-#main_section {
+section.courses{
   float: left;
-  width: 860px;
-  margin: 20px;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
 }
 
-
-/* CSS Top Boarder, Align, Gradient */
-
-#the_footer {
+article{
   clear: both;
-  text-align: center;
-  padding: 20px;
-  border-top: 2px solid black;
-  background: linear-gradient(to right, black, rgb(88, 0, 0), orange, rgb(88, 0, 0), black);
-  color: white;
+  overflow: auto;
+  width: 100%;
 }
 
-article {
-  background: #580000;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 13px;
-  color: white;
+hgroup{
+  margin-top: 40px;
 }
 
-
-/* Table styling */
-
-table {
-  border-collapse: collapse;
-  width: 70%;
+figure{
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  boarder: 1px solid #eeeeee;
 }
 
-th,
-td {
-  padding: 4px;
+figcaption{
+  font-size: 90%;
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
 
-
-/* Iframe positioning */
-
-.iframe1 {
-  float: right;
-  padding-top: 25px
+aside{
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
 }
 
-.iframe2 {
-  float: right;
-  padding-top: 75px
+aside section a{
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid;
 }
 
-#logo1 {
-  text-align: center;
+aside section a:hover{
+  color: #985d6a;
+  background-color: efefef;
 }
 
-#logo {
-  text-align: center;
-  padding: 1px;
+a{
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1, h2, h3{
+  font-weight: normal;
+}
+
+h2{
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+
+h3{
+  marging: 0px 0px 10px 0px;
+  color: #de6581;
+}
+
+aside h2{
+  padding: 30px 0px 10px 0px;
+  color: #de6581;
+}
+
+footer{
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
 }
