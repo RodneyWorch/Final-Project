@@ -22,6 +22,7 @@ body {
 header {
 	height: 160px;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
+	color: solid white;
 }
 
 h1 {
