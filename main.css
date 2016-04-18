@@ -23,16 +23,13 @@ header {
 	height: 160px;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
 }
-
-header.h1 {
+header.h1{
+	color: solid white;
 	text-align: center;
 	font-size: 25px;
 }
-
 h1 {
-	text-indent: -9999px;
-	width: 940px;
-	height: 130px;
+	text-indent: 0px;
 	margin: 0px;
 }
 
