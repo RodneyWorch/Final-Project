@@ -10,7 +10,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 	background-position: center;
 	font-family: Georgia, Times, serif;*/
 	
-/*}
+}
 
 .wrapper {
 	width: 940px;
@@ -18,7 +18,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 	border: 1px solid #000000;
 	background-color: #ffffff;
 	text-align: left;
-}
+/*}
 
 header {
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
