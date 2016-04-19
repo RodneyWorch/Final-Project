@@ -42,24 +42,22 @@ nav, footer {
 }
 
 nav ul {
-	/*margin: 0px;*/
+	margin: 0px;
 	padding: 5px 0px 5px 30px;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
 	overflow: hidden;
 }
 
 nav li {
-	/*display: inline;
-	margin-right: 40px;*/
+	display: inline;
+	margin-right: 40px;
 	float: left;
 }
 
 nav li a {
-	/*color: #ffffff;*/
+	color: #ffffff;
 	display: inline-block;
-	color: white;
 	text-align: center;
 	text-decoration: none;
 	padding: 12px 18px;
