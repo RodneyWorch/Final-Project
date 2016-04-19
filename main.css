@@ -9,13 +9,13 @@ body {
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/background.jpg");
 	background-position: center;
 	font-family: Georgia, Times, serif;
-	text-align:center;
-}
+	text-align: left;
+/*}
 
 .wrapper {
 	width: 940px;
 	margin: 20px auto 20px auto;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	background-color: #ffffff;
 	text-align: left;
 }
@@ -48,10 +48,7 @@ footer {
 	padding: 20px;
 	color: white;
 	background-color: #aeaca8;
-	/*clear: both;
-	color: #ffffff;
-	background-color: #aeaca8;
-	height: 30px;*/
+
 }
 
 nav ul {
@@ -59,18 +56,12 @@ nav ul {
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-	/*margin: 0px;
-	padding: 5px 0px 5px 30px;
-	list-style-type: none;
-	margin: 0;
-	overflow: hidden;*/
+
 }
 
 nav li {
 	float: left;
-	/*display: inline;
-	margin-right: 40px;
-	float: left;*/
+
 }
 
 nav li a {
@@ -159,4 +150,4 @@ aside h2 {
 footer {
 	font-size: 80%;
 	padding: 7px 0px 0px 20px;
-}	
+}*/	
