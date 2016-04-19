@@ -27,12 +27,12 @@ header {
 	text-align: center;
 }
 
-/*h1 {
-	text-indent: -9999px;
+h1 {
+	/*text-indent: -9999px;*/
 	margin: 0px;
 	height: 130px;
 	width: 940px;
-}*/
+}
 
 nav, footer {
 	clear: both;
