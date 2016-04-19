@@ -23,14 +23,16 @@ header {
 	height: 160px;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
 	color: solid white;
+	padding: 25px;
+	text-align: center;
 }
 
-h1 {
-	/*text-indent: -9999px;*/
+/*h1 {
+	text-indent: -9999px;
 	margin: 0px;
 	height: 130px;
 	width: 940px;
-}
+}*/
 
 nav, footer {
 	clear: both;
@@ -40,17 +42,27 @@ nav, footer {
 }
 
 nav ul {
-	margin: 0px;
-	padding: 5px 0px 5px 30px;
+	/*margin: 0px;
+	padding: 5px 0px 5px 30px;*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 nav li {
-	display: inline;
-	margin-right: 40px;
+	/*display: inline;
+	margin-right: 40px;*/
+	float: left;
 }
 
 nav li a {
-	color: #ffffff;
+	/*color: #ffffff;*/
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
 }
 
 nav li a:hover, nav li a.current {
