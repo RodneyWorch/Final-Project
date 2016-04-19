@@ -14,8 +14,6 @@ header, section, footer, aside, nav, article, figure, figcaption {
 body {
 	background-color: #f9f8f6;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/background.jpg");
-	text-align: center;
-	
 }
 
 .wrapper {
