@@ -1,11 +1,3 @@
-/* resets margins and padding to zero by default */
-
-{
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Element selector Changes the font of all h1 tags */
 
 h1 {
   font: bold 20px Tahoma;
