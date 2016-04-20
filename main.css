@@ -1,273 +1,97 @@
-
-h1 {
-  font: bold 20px Tahoma;
-}
-
-
-/* Changes the font of all h2 tags */
-
-h2 {
-  font: bold 14px Tahoma;
-}
-
-
-/* This insures that all browsers handle the website in the same way.  CSS Display */
-
-header,
-section,
-footer aside,
-nav,
-article,
-hgroup {
-  display: block;
-}
-
-body {
-  text-align: center;
-  background-color: #e6e6e6
-}
-
-
-/* This will style the whole website CSS Dimension Width, CSS Margin */
-
-.wrapper {
-  border: 1px solid black;
-  width: 950px;
-  margin: 20px auto;
-  text-align: left;
-}
-
-
-/* This styles the header CSS Padding, CSS Boarder, CSS Gradient */
-
-header {
-  background: linear-gradient(to right, black, rgb(88, 0, 0), orange, rgb(88, 0, 0), black);
-  border: 1px solid black;
-  padding: 25px;
-  text-align: center;
-  color: white;
-}
-
-
-/* This styles the nav bar */
-
-nav {
-  background-color: rgb(88, 0, 0);
-  color: white;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 12px 18px;
-  text-decoration: none;
-}
-
-
-/* CSS Anchor Pseudo Class */
-
-li a:hover {
-  background-color: #111;
-}
-
-section.picture {
-  float: left;
-  width: 860px;
-  margin: 20px;
-}
-
-
-/* CSS Top Boarder, Align, Gradient */
-
-footer {
-  clear: both;
-  text-align: center;
-  padding: 20px;
-  border-top: 2px solid black;
-  background: linear-gradient(to right, black, rgb(88, 0, 0), orange, rgb(88, 0, 0), black);
-  color: white;
-}
-
-article {
-  background: #580000;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 13px;
-  color: white;
-}
-
-/* resets margins and padding to zero by default */
-
-/*{
-  margin: 0px;
-  padding: 0px;
-}
-
-/* This insures that all browsers handle the website in the same way.  CSS Display */
-
-/*header, section, footer, aside, nav, article, figure, figcaption {
-  display: block;
-}
-  
-body {
-	background-color: #f9f8f6;
-	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/background.jpg");
-	margin: 0px;
-}
-
-.wrapper {
-	width: 940px;
-	margin: 20px auto 20px auto;
-	border: 1px solid #000000;
-	background-color: #ffffff;
-}
-
-header{
-	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
-	height: 160px;
-	clear: both;
-}
-
-/*header {
-	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/header.jpg");
-	color: white;
-	padding: 25px;
-	text-align: center;
-	border: 1px solid black;
-}
-
-h1 {
-	text-indent: -9999px;
-	margin: 0px;
-	height: 130px;
-	width: 940px;
-}
-
-nav {
-	background-color: #aeaca8;
-	color: white;
-	width: 940px;
-}
-
-
-footer {
-	clear: both;
-	text-align: center;
-	padding: 20px;
-	color: white;
-	background-color: #aeaca8;
-
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-
-}
-
-nav li {
-	float: left;
-
-}
-
-nav li a {
-	color: #ffffff;
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
-	padding: 12px 18px;
-}
-
-nav li a:hover, nav li a.current {
-	color: #000000;
-}
-
-section.picture {
-	float: left;
-	width: 659px;
-	border-right: 1px solid #eeeeee;
-}
-
-article {
-	clear: both;
-	overflow: auto;
-	width: 100%;
-}
-
-hgroup {
-	margin-top: 40px;
-}
-
-figure {
-	float: left;
-	width: 290px;
-	height: 220px;
-	padding: 5px;
-	margin: 20px;
-	border: 1px solid #eeeeee;
-}
-
-figcaption {
-	font-size: 90%;
-	text-align: left;
-}
-
-aside {
-	width: 230px;
-	float: left;
-	padding: 0px 0px 0px 20px;
-}
-
-aside section a {
-	display: block;
-	padding: 10px;
-	border-bottom: 1px solid #eeeeee;
-}
-
-aside section a:hover {
-	color: #985d6a;
-	background-color: #efefef;
-}
-
-a {
-	color: #de6581;
-	text-decoration: none;
-}
-
-h1, h2, h3 {
-	font-weight: normal;
-}
-
-h2 {
-	margin: 10px 0px 5px 0px;
-	padding: 0px;
-}
-
-h3 {
-	margin: 0px 0px 10px 0px;
-	color: #de6581;
-}
-
-aside h2 {
-	padding: 30px 0px 10px 0px;
-	color: #de6581;
-}
-
-footer {
-	font-size: 80%;
-	padding: 7px 0px 0px 20px;
-}*/	
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+	
+			body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-image: url("images/dark-wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+				
+			.wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+				
+			header {
+				height: 160px;
+				background-image: url("images/header.jpg");}
+				
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+				
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+				
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+				
+			nav li {
+				display: inline;
+				margin-right: 40px;
+			}
+				
+			nav li a {
+				color: #ffffff;
+			}
+				
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}	
