@@ -23,12 +23,6 @@ header {
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/Header1.jpeg");
 }
 				
-h1 {
-	width: 940px;
-	height: 130px;
-	margin: 0px;
-}
-				
 nav, footer {
 	clear: both;
 	color: #ffffff;
