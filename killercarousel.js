@@ -1,4 +1,4 @@
-$(function() {
+(function() {
     $('.kc-wrap').KillerCarousel({
         // Width of carousel.
         width: 800, 
