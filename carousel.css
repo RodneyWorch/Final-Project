@@ -2,7 +2,9 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 40%;
+      /*width: 40%;*/
+      width:640px;
+      height:360px;
       margin: auto;\
   }
   
