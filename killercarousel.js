@@ -9,4 +9,4 @@
         showShadow:true,
         showReflection: true
     });
-});
+})();
