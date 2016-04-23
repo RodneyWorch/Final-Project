@@ -152,14 +152,14 @@ footer {
 #image_slider{
 	position: relative;
 	overflow: hidden;
-	height: 480px;
+	height: 580px;
   	width: 940px;
 	padding:0;
 	left:0;
 }
 #image_slider li{
 	position:relative;
-	max-width: 100%;
+	max-width: 90%;
 	float:left;
 	list-style: none;
 	left: 0;
