@@ -114,9 +114,9 @@ h3 {
 	color: #de6581;
 }
 
-/*aside h2 {
+aside h2 {
 	padding: 30px 0px 10px 0px;
-	color: #de6581;*/
+	color: #de6581;
 }
 			
 footer {
@@ -127,7 +127,7 @@ footer {
 
 .container{
 	width:940px;
-	height:600px;
+	height:300px;
 	padding:60px;
 	border:1px solid gray;
 	-webkit-box-sizing:border-box;
@@ -142,7 +142,7 @@ footer {
 	position: relative;
 	overflow: hidden;
 	height: 280px;
-  width: 940px;
+  	width: 940px;
 	padding:0;
 	left:0;
 }
