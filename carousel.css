@@ -137,7 +137,7 @@ footer {
 
 /* This will style the carousel */
 .container{
-	margin:20px;
+	margin:0px;
 	width:940px;
 	height:620px;
 	padding:60px;
@@ -153,7 +153,7 @@ footer {
 #image_slider{
 	position: relative;
 	overflow: hidden;
-	height: 550px;
+	height: 520px;
   	width: 940px;
 	padding:0;
 	left:0;
