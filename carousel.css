@@ -139,7 +139,7 @@ footer {
 .container{
 	magrin:20px;
 	width:940px;
-	height:600px;
+	height:610px;
 	padding:60px;
 	border:1px solid gray;
 	-webkit-box-sizing:border-box;
@@ -153,7 +153,7 @@ footer {
 #image_slider{
 	position: relative;
 	overflow: hidden;
-	height: 580px;
+	height: 540px;
   	width: 940px;
 	padding:0;
 	left:0;
