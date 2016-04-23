@@ -1,6 +1,9 @@
+/* This insures that all browsers handle the website in the same way.  CSS Display */
 header, section, footer, aside, nav, article, figure, figcaption {
-	display: block;}
+	display: block;
+}
 	
+/* This is the body style, allows the picture background. */	
 body {
 	color: #666666;
 	background-color: #f9f8f6;
@@ -10,19 +13,22 @@ body {
 	line-height: 1.4em;
 	margin: 0px;
 }
-				
+
+/* This will style the whole website CSS Dimension Width, CSS Margin */				
 .wrapper {
 	width: 940px;
 	margin: 20px auto 20px auto;
 	border: 2px solid #000000;
 	background-color: #ffffff;
 }
-				
+
+/* This will style the header of the site. */				
 header {
 	height: 160px;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/Header1.jpeg");
 }
 
+/* This will style all H1 tags */
 h1{
 	width: 940px;
 	height: 130px;
@@ -49,7 +55,8 @@ nav li {
 nav li a {
 	color: #ffffff;
 }
-				
+
+/* This will change the color of navigation tags */				
 nav li a:hover, nav li a.current {
 	color: #000000;
 }
@@ -64,6 +71,7 @@ hgroup {
 	margin-top: 40px;
 }
 
+/* This is the picture box on index page. */
 figure {
 	float: left;
 	width: 290px;
@@ -73,6 +81,7 @@ figure {
 	border: 1px solid #eeeeee;
 }
 
+/* This adds a caption on index page. */
 figcaption {
 	font-size: 90%;
 	text-align: left;
@@ -95,6 +104,7 @@ aside section a:hover {
 	background-color: #efefef;
 }
 
+/* This colors the nav text and removes the hypertext underline*/
 a {
 	color: #de6581;
 	text-decoration: none;
@@ -118,13 +128,14 @@ aside h2 {
 	padding: 30px 0px 10px 0px;
 	color: #de6581;
 }
-			
+
+/* This will style the footer of the page */			
 footer {
   	font-size: 80%;
 	padding: 5px 5px 5px 20px;
 }
 
-
+/* This will style the carousel */
 .container{
 	width:940px;
 	height:430px;
