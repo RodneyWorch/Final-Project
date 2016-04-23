@@ -1,14 +1,5 @@
 
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-      /*width: 40%;*/
-      width:640px;
-      height:360px;
-      margin: auto;\
-  }
-  
-
 header, section, footer, aside, nav, article, figure, figcaption {
 	display: block;}
 	
@@ -89,4 +80,36 @@ h2 {
 h3 {
 	margin: 0px 0px 10px 0px;
 	color: #de6581;
+}
+
+.container {
+	width:940px;
+	height:600px;
+	padding:60px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+  background: black;
+}
+
+.image-slider-wrapper {
+	overflow: hidden;
+}
+
+#image_slider {
+	position: relative;
+	overflow: hidden;
+	height: 280px;
+  width: 940px;
+	padding:0;
+	left:0;
+}
+
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
 }
