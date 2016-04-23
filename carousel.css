@@ -137,6 +137,7 @@ footer {
 
 /* This will style the carousel */
 .container{
+	margin:20px;
 	width:940px;
 	height:620px;
 	padding:60px;
