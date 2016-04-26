@@ -44,6 +44,7 @@ function slider(){
 			}
 		});
 }
+
 function goBack(left_limits){
 	current = 0;	
 	setInterval(function(){
@@ -53,6 +54,7 @@ function goBack(left_limits){
 		}	
 	}, 17);
 }
+
 function animate(opts){
 	var start = new Date;
 	var id = setInterval(function(){
