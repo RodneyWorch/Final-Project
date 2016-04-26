@@ -34,7 +34,8 @@ h1{
 	height: 130px;
 	margin: 0px;
 }
-				
+
+/* This clears the nav bar and footer, gives text and background color, and provides the required height */				
 nav, footer {
 	clear: both;
 	color: #ffffff;
