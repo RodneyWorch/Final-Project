@@ -42,6 +42,8 @@ nav, footer {
 	background-color: #aeaca8;
 	height: 30px;
 }
+
+/* This will style the main navigation links */
 				
 nav ul {
 	margin: 0px;
@@ -62,11 +64,15 @@ nav li a:hover, nav li a.current {
 	color: #000000;
 }
 
+/* specifies the width, specifies on which sides of an element were floating, and specifies what happens if content overflows an elements box */
+
 article {
 	clear: both;
 	overflow: auto;
 	width: 100%;
 }
+
+/* provides a top margin to the hgroup */
 
 hgroup {
 	margin-top: 40px;
@@ -87,6 +93,8 @@ figcaption {
 	font-size: 90%;
 	text-align: left;
 }
+
+/* Styles the aside layout */
 
 aside {
 	width: 230px;
@@ -110,6 +118,8 @@ a {
 	color: #de6581;
 	text-decoration: none;
 }
+
+/* Styles all h1, h2, and h3. */
 
 h1, h2, h3 {
 	font-weight: normal;
