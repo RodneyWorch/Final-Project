@@ -1,5 +1,9 @@
+/* This insures that all browsers handle the website in the same way.  CSS Display */
+
 header, section, footer, aside, nav, article, figure, figcaption {
 	display: block;}
+
+/* provides information on how page will be layed out.  gives background image. */
 	
 body {
 	color: #666666;
@@ -10,6 +14,8 @@ body {
 	line-height: 1.4em;
 	margin: 0px;
 }
+
+/* This will style the whole website CSS Dimension Width, CSS Margin */
 				
 .wrapper {
 	width: 940px;
@@ -17,17 +23,23 @@ body {
 	border: 2px solid #000000;
 	background-color: #ffffff;
 }
+
+/* Styles the header and adds header picture */
 				
 header {
 	height: 160px;
 	background-image: url("https://raw.githubusercontent.com/RodneyWorch/Final-Project/gh-pages/Header1.jpeg");
 }
 
+/* Styles h1 tags */
+
 h1{
 	width: 940px;
 	height: 130px;
 	margin: 0px;
 }
+
+/* Styles the nav and footer */
 				
 nav, footer {
 	clear: both;
@@ -35,11 +47,15 @@ nav, footer {
 	background-color: #aeaca8;
 	height: 30px;
 }
+
+/* Styles the nav and footer */
 				
 nav ul {
 	margin: 0px;
 	padding: 5px 0px 5px 30px;
 }
+
+/* Styles the nav bar */
 				
 nav li {
 	display: inline;
@@ -54,11 +70,15 @@ nav li a:hover, nav li a.current {
 	color: #000000;
 }
 
+/* gives the section pictures a width and boarder */
+
 section.pictures {
 	float: left;
 	width: 659px;
 	border-right: 1px solid #eeeeee;
 }
+
+/* specifies the width, specifies on which sides of an element were floating, and specifies what happens if content overflows an elements box */
 
 article {
 	clear: both;
@@ -66,9 +86,13 @@ article {
 	width: 100%;
 }
 
+/* provides a top margin to the hgroup */
+
 hgroup {
 	margin-top: 40px;
 }
+
+/* gives all styles to the figure. */
 
 figure {
 	float: left;
@@ -79,10 +103,14 @@ figure {
 	border: 1px solid #eeeeee;
 }
 
+/* provides a caption box */
+
 figcaption {
 	font-size: 90%;
 	text-align: left;
 }
+
+/* Styles the aside layout */
 
 aside {
 	width: 230px;
@@ -96,6 +124,8 @@ aside section a {
 	border-bottom: 1px solid #eeeeee;
 }
 
+/* provides working links to  */
+
 aside section a:hover {
 	color: #985d6a;
 	background-color: #efefef;
@@ -105,6 +135,8 @@ a {
 	color: #de6581;
 	text-decoration: none;
 }
+
+/* Styles all h1, h2, and h3. */
 
 h1, h2, h3 {
 	font-weight: normal;
@@ -120,20 +152,17 @@ h3 {
 	color: #de6581;
 }
 
+/* Styles all h2 elements in the aside. */
+
 aside h2 {
 	padding: 30px 0px 10px 0px;
 	color: #de6581;
 }
+
+/* Styles the footer */
 			
 footer {
   	font-size: 80%;
 	padding: 5px 5px 5px 20px;
 }
 
-table, th, td {
-    border-right: 1px solid #eeeeee;
-}
-
-th, td {
-    padding: 2px;
-}    
