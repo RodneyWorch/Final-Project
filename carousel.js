@@ -1,3 +1,5 @@
+
+
 var ul;
 var li_items; 
 var li_number;
@@ -10,10 +12,10 @@ function init(){
 	li_items = ul.children;
 	li_number = li_items.length;
 	for (i = 0; i < li_number; i++){
-		// nodeType == 1 means the node is an element.
-		// in this way it's a cross-browser way.
-		//if (li_items[i].nodeType == 1){
-			//clietWidth and width???
+		/* nodeType == 1 means the node is an element.*/
+		/* in this way it's a cross-browser way.*/
+		/*if (li_items[i].nodeType == 1){
+			clietWidth and width??? */
 			image_width = li_items[i].childNodes[0].clientWidth;
 			slider_width += image_width;
 			image_number++;
@@ -22,6 +24,12 @@ function init(){
 	ul.style.width = parseInt(slider_width) + 'px';
 	slider(ul);
 }
+
+/**delta function is to set how the image slide—keep still for a while and move to next picture.
+*step function will be called many times until clearInterval() been called
+* currentImage * imageWidth is the currentImage position of ul
+* delta start from 0 to 1, delta * imageWidth is the pixels that changes
+**/
 
 function slider(){		
 		animate({
@@ -33,17 +41,23 @@ function slider(){
 				},
 			callback:function(){
 				current++;
+				/* if it doesn’t slied to the last image, keep sliding*/
 				if(current < li_number-1){
 					slider();
 				}
+				
+				/* if current image it’s the last one, it slides back to the first one*/
 				else{
-					var left = (li_number - 1) * image_width;					
+					var left = (li_number - 1) * image_width;
+					/* after 2 seconds, call the goBack function to slide to the first image*/
 					setTimeout(function(){goBack(left)},2000); 				
 					setTimeout(slider, 4000);
 				}
 			}
 		});
 }
+
+/*if it’s the last image, it calls the “goBack” function to slide to the first image.*/
 
 function goBack(left_limits){
 	current = 0;	
@@ -54,6 +68,8 @@ function goBack(left_limits){
 		}	
 	}, 17);
 }
+
+/* Animation function. */
 
 function animate(opts){
 	var start = new Date;
@@ -71,6 +87,9 @@ function animate(opts){
 		}
 	}, opts.dalay || 17);
 }
+
+//WIth the window.inload = init; as the end, the image slider has been successfully finished!//
+
 window.onload = init;
 
 
